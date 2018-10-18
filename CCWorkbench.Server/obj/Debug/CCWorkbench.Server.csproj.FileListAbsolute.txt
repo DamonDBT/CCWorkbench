@@ -14,6 +14,5 @@ E:\codeWrok\CCWorkbench\CCWorkbench.Server\bin\Microsoft.AI.ServerTelemetryChann
 E:\codeWrok\CCWorkbench\CCWorkbench.Server\bin\Microsoft.AI.Web.xml
 E:\codeWrok\CCWorkbench\CCWorkbench.Server\bin\Microsoft.AI.WindowsServer.xml
 E:\codeWrok\CCWorkbench\CCWorkbench.Server\bin\Microsoft.ApplicationInsights.xml
-E:\codeWrok\CCWorkbench\CCWorkbench.Server\obj\Debug\CCWorkbench.Server.csprojResolveAssemblyReference.cache
 E:\codeWrok\CCWorkbench\CCWorkbench.Server\obj\Debug\CCWorkbench.Server.dll
 E:\codeWrok\CCWorkbench\CCWorkbench.Server\obj\Debug\CCWorkbench.Server.pdb

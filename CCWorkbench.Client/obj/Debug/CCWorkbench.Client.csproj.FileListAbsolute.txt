@@ -1,0 +1,8 @@
+E:\codeWrok\CCWorkbench\CCWorkbench.Client\bin\Debug\CCWorkbench.Client.exe.config
+E:\codeWrok\CCWorkbench\CCWorkbench.Client\bin\Debug\CCWorkbench.Client.exe
+E:\codeWrok\CCWorkbench\CCWorkbench.Client\bin\Debug\CCWorkbench.Client.pdb
+E:\codeWrok\CCWorkbench\CCWorkbench.Client\obj\Debug\CCWorkbench.Client.Form1.resources
+E:\codeWrok\CCWorkbench\CCWorkbench.Client\obj\Debug\CCWorkbench.Client.Properties.Resources.resources
+E:\codeWrok\CCWorkbench\CCWorkbench.Client\obj\Debug\CCWorkbench.Client.csproj.GenerateResource.Cache
+E:\codeWrok\CCWorkbench\CCWorkbench.Client\obj\Debug\CCWorkbench.Client.exe
+E:\codeWrok\CCWorkbench\CCWorkbench.Client\obj\Debug\CCWorkbench.Client.pdb

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b59a42e1-e1fb-43eb-8376-e04a4072522f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.76.37.152:5031/ser2" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ser2.xsd" MetadataType="Schema" ID="7f037fef-3ba2-443d-8928-23417624f801" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser2?xsd=xsd1" />
+    <MetadataFile FileName="ser2.disco" MetadataType="Disco" ID="136767a4-b30d-4bd3-a9b3-6d4febf5946d" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser2?disco" />
+    <MetadataFile FileName="ser21.xsd" MetadataType="Schema" ID="94bf08a7-7e52-469c-ab6d-5870b010b31f" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser2?xsd=xsd0" />
+    <MetadataFile FileName="Service2.wsdl" MetadataType="Wsdl" ID="48715726-d575-457b-aa18-a59441e6b8cd" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser2?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

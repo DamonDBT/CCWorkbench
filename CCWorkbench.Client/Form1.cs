@@ -16,5 +16,11 @@ namespace CCWorkbench.Client
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ServiceReference1.Service1Client sc = new ServiceReference1.Service1Client();
+            this.label1.Text = sc.GetData(12).ToString();
+        }
     }
 }
