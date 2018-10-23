@@ -3,7 +3,9 @@ E:\codeWrok\CCWorkbench\CCWorkbench.Host\bin\Debug\CCWorkbench.Host.exe.config
 E:\codeWrok\CCWorkbench\CCWorkbench.Host\bin\Debug\CCWorkbench.Host.exe
 E:\codeWrok\CCWorkbench\CCWorkbench.Host\bin\Debug\CCWorkbench.Host.pdb
 E:\codeWrok\CCWorkbench\CCWorkbench.Host\bin\Debug\CCWorkbench.Server.dll
+E:\codeWrok\CCWorkbench\CCWorkbench.Host\bin\Debug\WcfServiceLibrary1.dll
 E:\codeWrok\CCWorkbench\CCWorkbench.Host\bin\Debug\CCWorkbench.Server.pdb
+E:\codeWrok\CCWorkbench\CCWorkbench.Host\bin\Debug\WcfServiceLibrary1.pdb
 E:\codeWrok\CCWorkbench\CCWorkbench.Host\obj\Debug\CCWorkbench.Host.csprojResolveAssemblyReference.cache
 E:\codeWrok\CCWorkbench\CCWorkbench.Host\obj\Debug\CCWorkbench.Host.Form1.resources
 E:\codeWrok\CCWorkbench\CCWorkbench.Host\obj\Debug\CCWorkbench.Host.Properties.Resources.resources

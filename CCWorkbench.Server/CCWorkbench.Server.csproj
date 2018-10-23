@@ -92,39 +92,19 @@
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Service1.svc" />
-<<<<<<< HEAD
     <Content Include="Service2.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IService2.cs" />
-<<<<<<< HEAD
-    <Compile Include="IService3.cs" />
-    <Compile Include="ReflectFactory.cs" />
-=======
-    <Content Include="Web.config" />
-  </ItemGroup>
-  <ItemGroup>
->>>>>>> parent of 16720b8... 实现了绑定多个服务到1个端口
-=======
->>>>>>> parent of b038d59... 改错了，不要这一版本
     <Compile Include="Service1.svc.cs">
       <DependentUpon>Service1.svc</DependentUpon>
     </Compile>
     <Compile Include="IService1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
     <Compile Include="Service2.svc.cs">
       <DependentUpon>Service2.svc</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-    <Compile Include="Service3.svc.cs">
-      <DependentUpon>Service3.svc</DependentUpon>
-    </Compile>
-=======
->>>>>>> parent of 16720b8... 实现了绑定多个服务到1个端口
-=======
->>>>>>> parent of b038d59... 改错了，不要这一版本
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -140,9 +120,6 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

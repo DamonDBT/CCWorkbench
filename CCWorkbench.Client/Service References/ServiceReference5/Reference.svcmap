@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4616c473-776a-4f9c-a606-80d6644b12a9" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:5031/ser5" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ser5.xsd" MetadataType="Schema" ID="c09bc272-6309-4cf3-a995-20a2014d5f68" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser5?xsd=xsd1" />
+    <MetadataFile FileName="ServiceDouble.wsdl" MetadataType="Wsdl" ID="7127e5c3-d596-46ce-9f9a-18914ceb482e" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser5?wsdl" />
+    <MetadataFile FileName="ser5.disco" MetadataType="Disco" ID="6999bc34-3926-43dc-b154-a883f2c91151" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser5?disco" />
+    <MetadataFile FileName="ser51.xsd" MetadataType="Schema" ID="2a42d18f-fe9f-436c-ab57-95edf7327ef5" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser5?xsd=xsd0" />
+    <MetadataFile FileName="ser52.xsd" MetadataType="Schema" ID="88ebf0fb-0d58-4ed1-89c7-edf8c58c34af" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser5?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

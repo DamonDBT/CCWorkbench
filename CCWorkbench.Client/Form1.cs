@@ -16,14 +16,28 @@ namespace CCWorkbench.Client
         {
             InitializeComponent();
         }
-<<<<<<< HEAD
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ServiceReference1.Service1Client sc = new ServiceReference1.Service1Client();
-            this.label1.Text = sc.GetData(12).ToString();
+            ServiceReference3.Service1Client sc = new ServiceReference3.Service1Client();
+            this.label1.Text = sc.GetData(12);
+            ServiceReference3.CompositeType ct = new ServiceReference3.CompositeType();
+            ct.BoolValue = true;
+            ServiceReference3.Person p = new ServiceReference3.Person();
+            p.Name = "12";
+
+
+
+
+            ServiceReference4.ServiceTestClient sc4 = new ServiceReference4.ServiceTestClient();
+            sc4.GetDataTest(33);
+
+            ServiceReference5.Service1Client sc5 = new ServiceReference5.Service1Client();
+            this.label1.Text = sc5.GetData(0);
+            ServiceReference5.ServiceTestClient stc5 = new ServiceReference5.ServiceTestClient();
+            this.label2.Text = stc5.GetDataTest(11);
+
+
         }
-=======
->>>>>>> parent of 16720b8... 实现了绑定多个服务到1个端口
     }
 }

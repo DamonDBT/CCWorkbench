@@ -16,12 +16,10 @@ namespace CCWorkbench.Client.ServiceReference2 {
     public interface IService2 {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService2/DoWork", ReplyAction="http://tempuri.org/IService2/DoWorkResponse")]
-        string DoWork();
+        void DoWork();
         
-        [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/IService2/DoWork", ReplyAction="http://tempuri.org/IService2/DoWorkResponse")]
-        System.IAsyncResult BeginDoWork(System.AsyncCallback callback, object asyncState);
-        
-        string EndDoWork(System.IAsyncResult result);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService2/DoWork", ReplyAction="http://tempuri.org/IService2/DoWorkResponse")]
+        System.Threading.Tasks.Task DoWorkAsync();
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -30,32 +28,7 @@ namespace CCWorkbench.Client.ServiceReference2 {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class DoWorkCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
-        
-        private object[] results;
-        
-        public DoWorkCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
-                base(exception, cancelled, userState) {
-            this.results = results;
-        }
-        
-        public string Result {
-            get {
-                base.RaiseExceptionIfNecessary();
-                return ((string)(this.results[0]));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     public partial class Service2Client : System.ServiceModel.ClientBase<CCWorkbench.Client.ServiceReference2.IService2>, CCWorkbench.Client.ServiceReference2.IService2 {
-        
-        private BeginOperationDelegate onBeginDoWorkDelegate;
-        
-        private EndOperationDelegate onEndDoWorkDelegate;
-        
-        private System.Threading.SendOrPostCallback onDoWorkCompletedDelegate;
         
         public Service2Client() {
         }
@@ -76,54 +49,12 @@ namespace CCWorkbench.Client.ServiceReference2 {
                 base(binding, remoteAddress) {
         }
         
-        public event System.EventHandler<DoWorkCompletedEventArgs> DoWorkCompleted;
-        
-        public string DoWork() {
-            return base.Channel.DoWork();
+        public void DoWork() {
+            base.Channel.DoWork();
         }
         
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        public System.IAsyncResult BeginDoWork(System.AsyncCallback callback, object asyncState) {
-            return base.Channel.BeginDoWork(callback, asyncState);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        public string EndDoWork(System.IAsyncResult result) {
-            return base.Channel.EndDoWork(result);
-        }
-        
-        private System.IAsyncResult OnBeginDoWork(object[] inValues, System.AsyncCallback callback, object asyncState) {
-            return this.BeginDoWork(callback, asyncState);
-        }
-        
-        private object[] OnEndDoWork(System.IAsyncResult result) {
-            string retVal = this.EndDoWork(result);
-            return new object[] {
-                    retVal};
-        }
-        
-        private void OnDoWorkCompleted(object state) {
-            if ((this.DoWorkCompleted != null)) {
-                InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
-                this.DoWorkCompleted(this, new DoWorkCompletedEventArgs(e.Results, e.Error, e.Cancelled, e.UserState));
-            }
-        }
-        
-        public void DoWorkAsync() {
-            this.DoWorkAsync(null);
-        }
-        
-        public void DoWorkAsync(object userState) {
-            if ((this.onBeginDoWorkDelegate == null)) {
-                this.onBeginDoWorkDelegate = new BeginOperationDelegate(this.OnBeginDoWork);
-            }
-            if ((this.onEndDoWorkDelegate == null)) {
-                this.onEndDoWorkDelegate = new EndOperationDelegate(this.OnEndDoWork);
-            }
-            if ((this.onDoWorkCompletedDelegate == null)) {
-                this.onDoWorkCompletedDelegate = new System.Threading.SendOrPostCallback(this.OnDoWorkCompleted);
-            }
-            base.InvokeAsync(this.onBeginDoWorkDelegate, null, this.onEndDoWorkDelegate, this.onDoWorkCompletedDelegate, userState);
+        public System.Threading.Tasks.Task DoWorkAsync() {
+            return base.Channel.DoWorkAsync();
         }
     }
 }

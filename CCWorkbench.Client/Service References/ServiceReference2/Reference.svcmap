@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b59a42e1-e1fb-43eb-8376-e04a4072522f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2202555e-3046-40ed-adbb-e2bc6a16aa4d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
-    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
     <EnableDataBinding>true</EnableDataBinding>
     <ExcludedTypes />
     <ImportXmlTypes>false</ImportXmlTypes>
@@ -21,10 +22,9 @@
     <MetadataSource Address="http://10.76.37.152:5031/ser2" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="ser2.xsd" MetadataType="Schema" ID="7f037fef-3ba2-443d-8928-23417624f801" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser2?xsd=xsd1" />
-    <MetadataFile FileName="ser2.disco" MetadataType="Disco" ID="136767a4-b30d-4bd3-a9b3-6d4febf5946d" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser2?disco" />
-    <MetadataFile FileName="ser21.xsd" MetadataType="Schema" ID="94bf08a7-7e52-469c-ab6d-5870b010b31f" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser2?xsd=xsd0" />
-    <MetadataFile FileName="Service2.wsdl" MetadataType="Wsdl" ID="48715726-d575-457b-aa18-a59441e6b8cd" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser2?wsdl" />
+    <MetadataFile FileName="ser2.disco" MetadataType="Disco" ID="b46df885-c414-4690-97d4-ec9aa840c0f0" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser2?disco" />
+    <MetadataFile FileName="ser2.xsd" MetadataType="Schema" ID="bee39d47-f1f7-4371-9640-7109ea969543" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser2?xsd=xsd0" />
+    <MetadataFile FileName="Service2.wsdl" MetadataType="Wsdl" ID="9d344ac4-37f8-4b70-aab9-35d1df8d5ffa" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser2?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
