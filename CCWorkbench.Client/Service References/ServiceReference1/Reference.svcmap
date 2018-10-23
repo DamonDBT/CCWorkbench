@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="194d0d53-4e98-4b0a-8faa-e14c125dc584" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
 =======
 <ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f77f7bee-7848-41df-98f3-ea1f4d93c5bf" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
 >>>>>>> parent of 16720b8... 实现了绑定多个服务到1个端口
+=======
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="19892eef-fb28-406f-b858-272373b86433" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+>>>>>>> parent of b038d59... 改错了，不要这一版本
   <ClientOptions>
-    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
-    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
     <EnableDataBinding>true</EnableDataBinding>
     <ExcludedTypes />
     <ImportXmlTypes>false</ImportXmlTypes>
@@ -23,9 +26,10 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:5031/Service1.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:5031/ser1" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="81b0d03f-5ee6-431f-ba8f-541dfd261955" SourceId="1" SourceUrl="http://localhost:5031/Service1.svc?xsd=xsd1" />
     <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="387fc619-cd1f-4892-bfbf-233e69da25b6" SourceId="1" SourceUrl="http://localhost:5031/Service1.svc?wsdl" />
@@ -39,6 +43,13 @@
     <MetadataFile FileName="Service1.disco" MetadataType="Disco" ID="c4c212bb-fb09-4a8f-8256-863bb7d600c5" SourceId="1" SourceUrl="http://localhost:5031/Service1.svc?disco" />
     <MetadataFile FileName="Service12.xsd" MetadataType="Schema" ID="9936900b-73a0-4fd5-ae8f-89a6a6df14cd" SourceId="1" SourceUrl="http://localhost:5031/Service1.svc?xsd=xsd0" />
 >>>>>>> parent of 16720b8... 实现了绑定多个服务到1个端口
+=======
+    <MetadataFile FileName="ser1.xsd" MetadataType="Schema" ID="a2aa3b18-9eb8-4130-9d68-2ffe57438b49" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser1?xsd=xsd0" />
+    <MetadataFile FileName="ser11.xsd" MetadataType="Schema" ID="4f2af34e-90f6-4598-9bbd-8d4c4fa41e08" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser1?xsd=xsd2" />
+    <MetadataFile FileName="ser12.xsd" MetadataType="Schema" ID="3066f291-a334-478c-b309-e8019eb1ba31" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser1?xsd=xsd1" />
+    <MetadataFile FileName="ser1.disco" MetadataType="Disco" ID="680949fa-ab6f-41d3-b2e8-01186c99dbb0" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser1?disco" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="68cc3962-7dd2-4153-b9de-0c0999d2413a" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser1?wsdl" />
+>>>>>>> parent of b038d59... 改错了，不要这一版本
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

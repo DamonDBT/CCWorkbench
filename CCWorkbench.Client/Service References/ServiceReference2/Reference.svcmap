@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d7397b5b-89b1-4094-8112-310087caf59f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b59a42e1-e1fb-43eb-8376-e04a4072522f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
-    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
-    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
     <EnableDataBinding>true</EnableDataBinding>
     <ExcludedTypes />
     <ImportXmlTypes>false</ImportXmlTypes>
@@ -19,13 +18,13 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:5031/ser2" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://10.76.37.152:5031/ser2" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="ser2.xsd" MetadataType="Schema" ID="a05f418e-392b-4af7-866d-59dd453d2d77" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser2?xsd=xsd1" />
-    <MetadataFile FileName="ser2.disco" MetadataType="Disco" ID="642109da-3304-47ce-bc98-479457c51520" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser2?disco" />
-    <MetadataFile FileName="ser21.xsd" MetadataType="Schema" ID="592db1bb-cc5c-40b8-8f41-c3ce561f9d43" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser2?xsd=xsd0" />
-    <MetadataFile FileName="Service2.wsdl" MetadataType="Wsdl" ID="9b2e6476-e368-401c-8c22-2ea266b3e013" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser2?wsdl" />
+    <MetadataFile FileName="ser2.xsd" MetadataType="Schema" ID="7f037fef-3ba2-443d-8928-23417624f801" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser2?xsd=xsd1" />
+    <MetadataFile FileName="ser2.disco" MetadataType="Disco" ID="136767a4-b30d-4bd3-a9b3-6d4febf5946d" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser2?disco" />
+    <MetadataFile FileName="ser21.xsd" MetadataType="Schema" ID="94bf08a7-7e52-469c-ab6d-5870b010b31f" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser2?xsd=xsd0" />
+    <MetadataFile FileName="Service2.wsdl" MetadataType="Wsdl" ID="48715726-d575-457b-aa18-a59441e6b8cd" SourceId="1" SourceUrl="http://10.76.37.152:5031/ser2?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

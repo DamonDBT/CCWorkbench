@@ -1,5 +1,0 @@
-E:\codeWrok\CCWorkbench\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
-E:\codeWrok\CCWorkbench\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
-E:\codeWrok\CCWorkbench\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
-E:\codeWrok\CCWorkbench\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
-E:\codeWrok\CCWorkbench\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb

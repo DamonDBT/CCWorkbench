@@ -18,16 +18,18 @@ namespace CCWorkbench.Host
             InitializeComponent();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         ServiceHost host1 = null;
+=======
+        System.ServiceModel.ServiceHost host1 = null;
+>>>>>>> parent of b038d59... 改错了，不要这一版本
         ServiceHost host2 = null;
-        ServiceHost host3 = null;
-
         private List<ServiceHost> serviceHosts = new List<ServiceHost>();
         /// <summary>
         /// 采用程序的方法绑定多个服务到1个端口。
         /// </summary>
         private void ServiceStart()
-
+           
         {
             if (serviceHosts != null)
             {
@@ -97,15 +99,9 @@ namespace CCWorkbench.Host
             host1 = new ServiceHost(typeof(CCWorkbench.Server.Service1));
             host1.Open();
 
-
-
             //host2 = new ServiceHost(typeof(CCWorkbench.Server.Service2), new Uri("http://10.76.37.152:5031/ser2"));
             host2 = new ServiceHost(typeof(CCWorkbench.Server.Service2));
             host2.Open();
-
-            host3 = new ServiceHost(typeof(WcfServiceLibrary1.Service1));
-            host3.Opened += delegate { MessageBox.Show("server3 started ."); };
-            host3.Open();
 
             //this.ServiceStart();
 =======
@@ -119,8 +115,6 @@ namespace CCWorkbench.Host
             this.label1.Text = "服务启动成功！";
         }
 
-
-
         private void btnStop_Click(object sender, EventArgs e)
         {
             if (host.State!=CommunicationState.Closed)
@@ -129,12 +123,15 @@ namespace CCWorkbench.Host
                 this.label1.Text = "服务停止成功！";
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (host3.State!=CommunicationState.Closed)
             {
                
                 host3.Closed += delegate { MessageBox.Show("server3 closed ."); };
                 host3.Close();
             }
+=======
+>>>>>>> parent of b038d59... 改错了，不要这一版本
             //foreach (var item in this.serviceHosts)
             //{
             //    if (item.State!=CommunicationState.Closed)
