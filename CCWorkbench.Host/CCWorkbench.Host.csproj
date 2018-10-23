@@ -86,6 +86,10 @@
       <Project>{0140489f-d980-4db0-a1ba-27746672776e}</Project>
       <Name>CCWorkbench.Server</Name>
     </ProjectReference>
+    <ProjectReference Include="..\WcfServiceLibrary1\WcfServiceLibrary1.csproj">
+      <Project>{03839f56-6092-4f36-8d85-1a4c07fa63fc}</Project>
+      <Name>WcfServiceLibrary1</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
