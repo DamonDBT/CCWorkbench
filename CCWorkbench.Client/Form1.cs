@@ -16,11 +16,14 @@ namespace CCWorkbench.Client
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
 
         private void button1_Click(object sender, EventArgs e)
         {
             //ServiceReference1.Service1Client sc = new ServiceReference1.Service1Client();
             //this.label1.Text = sc.GetData(12).ToString();
         }
+=======
+>>>>>>> parent of 16720b8... 实现了绑定多个服务到1个端口
     }
 }

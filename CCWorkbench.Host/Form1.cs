@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.ServiceModel;
-using System.ServiceModel.Description;
 
 namespace CCWorkbench.Host
 {
@@ -18,6 +17,7 @@ namespace CCWorkbench.Host
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
         ServiceHost host1 = null;
         ServiceHost host2 = null;
         ServiceHost host3 = null;
@@ -108,6 +108,14 @@ namespace CCWorkbench.Host
             host3.Open();
 
             //this.ServiceStart();
+=======
+        System.ServiceModel.ServiceHost host =null;
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            host = new ServiceHost(typeof(CCWorkbench.Server.Service1));
+            host.Open();
+>>>>>>> parent of 16720b8... 实现了绑定多个服务到1个端口
             this.label1.Text = "服务启动成功！";
         }
 
@@ -115,15 +123,12 @@ namespace CCWorkbench.Host
 
         private void btnStop_Click(object sender, EventArgs e)
         {
-            if (host1.State != CommunicationState.Closed)
+            if (host.State!=CommunicationState.Closed)
             {
-                host1.Close();
-
+                host.Close();
+                this.label1.Text = "服务停止成功！";
             }
-            if (host2.State != CommunicationState.Closed)
-            {
-                host2.Close();
-            }
+<<<<<<< HEAD
             if (host3.State!=CommunicationState.Closed)
             {
                
@@ -138,6 +143,8 @@ namespace CCWorkbench.Host
             //    }
             //}
             this.label1.Text = "服务停止成功！";
+=======
+>>>>>>> parent of 16720b8... 实现了绑定多个服务到1个端口
         }
     }
 }

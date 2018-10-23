@@ -14,8 +14,6 @@ namespace CCWorkbench.Server
     {
         public string GetData(int value)
         {
-            //Lib.Service1.Service1Client sc = new Lib.Service1.Service1Client();
-            //return sc.GetData(12*value);
             return string.Format("You entered: {0}", value);
         }
 
